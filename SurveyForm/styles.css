@@ -1,0 +1,51 @@
+/* Changes to html */
+html {
+  font-family: Georgia, serif; /* To change font */ 
+  background-color: #829079; /* to make background colour green */ 
+}
+
+/* To make changes to h1 and p elements */
+h1, p{
+  text-align: center; /* to make text center */ 
+}
+
+/* form elements */ 
+form {
+  width: 60vw; /*width of form */ 
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+/*input, textarea, and select changes */ 
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  background-color: #ede6b9; /*yellow background */ 
+  border: 1px solid #ede6b9;/* yellow border */ 
+  color: black;/* font colour */ 
+}
+
+/* fieldset changes */ 
+fieldset {
+  padding: 10%;
+  background-color: #b9925e;/* brown background colour */ 
+  border: 1px solid #ede6b9; /* border colour with spacing, yellow */ 
+}
+
+/* label changes */ 
+label {
+  display: block;
+  margin: 1.5rem 0;/* spacing between each label in the form */ 
+}
+
+/* class inline for radio buttons, aligns the buttons correctly */ 
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}

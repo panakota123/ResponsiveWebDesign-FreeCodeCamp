@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- makes the website english --> 
+
+<!-- Head of websites -->  
+<head> 
+  <meta charset="UTF-8"> <!-- character encoding --> 
+  <title>Survey Form</title> <!-- title of website --> 
+  <link rel="stylesheet" href="styles.css" /> <!-- links to css sheet --> 
+</head> 
+
+<!-- Body of website --> 
+<body> 
+  <h1 id="title">Survey Form</h1> <!-- title of webpage -->  
+
+  <p id="description">This survey is to see how well you understand HTML and CSS.  </p> 
+
+  <p>Please fill out the following form below </p> <!-- description for user to action the survey --> 
+
+<!-- Form --> 
+  <form id="survey-form"> 
+
+    <!-- First fieldset for user to fill in their personal information --> 
+    <fieldset> <strong> Peronal Information: </strong> 
+
+      <!-- For user to input their name --> 
+      <label id="name-label"> Name:   <input type="text" id="name" placeholder="Jane Doe" required />
+      </label>
+
+      <!-- For user to input their email --> 
+      <label id="email-label"> Email: 
+        <input type="email" id="email" placeholder="janedoe@outlook.com" required/> 
+      </label> 
+
+      <!-- For user to input their phone number --> 
+      <label id="number-label"> Phone Number:
+        <input type="number" min="1" max="1000000000" id="number" placeholder="0400 222 333"/> 
+      </label> 
+
+    </fieldset> 
+
+<!-- Second fieldset for user to input information about how well they under html and css --> 
+    <fieldset> <strong> Basic Questions: </strong> 
+
+      <!-- HTML questions --> 
+
+      <!-- for users to choose an option on how well they understand html --> 
+      <label> How well do you understand HTML?
+        <select id="dropdown"> 
+          <option value=""> (choose one) </option> <!-- placeholder option--> 
+          <option value="1"> Above Average
+          </option> 
+          <option value="2"> Average
+          </option>
+          <option value="3"> Below Average
+          </option>
+        </select> 
+      </label> 
+
+      <!-- for user to choose if they need more help with HTML --> 
+      <label> Do you need additional help with HTML? 
+
+        <!-- yes option --> 
+        <label for="htmlyes"><input id="yes" type="radio" name="additionalhtmlhelp" class="inline" value="yes"/> Yes
+        </label>
+
+        <!-- no option --> 
+        <label for="htmlno"><input id="no" type="radio" name="additionalhtmlhelp" class="inline" value="no" /> No
+        </label> 
+
+      <!-- CSS Questions --> 
+      <!-- for users to choose an option on how well they understand CSS --> 
+      <label> How well do you understand CSS?
+        <select id="dropdown"> 
+          <option value=""> (choose one) </option> <!-- placeholder option--> 
+          <option value="1"> Above Average
+          </option> 
+          <option value="2"> Average
+          </option>
+          <option value="3"> Below Average
+          </option>
+        </select> 
+      </label> 
+
+      <!-- for user to choose if they need more help with CSS --> 
+      <label> Do you need additional help with CSS? 
+
+        <!-- yes option --> 
+        <label for="CSSyes"><input id="yes" type="radio" name="additionalCSShelp" class="inline" value="yes" /> Yes
+        </label>
+        
+        <!-- no option --> 
+        <label for="cssno"><input id="no" type="radio" name="additionalCSShelp" class="inline" value="no" /> No
+        </label>  
+    </fieldset> 
+
+	<!-- Third fieldset --> 
+    <!-- for user to add any additional information if needed --> 
+    <fieldset> <strong>Additional Information: </strong>
+      
+      <!-- Summary for why student chose this class  -->
+      <label for="bio">Provide a summary on why you have chosen this class:
+          <textarea id="bio" name="bio" rows="6" cols="30" placeholder="I have chosen this class because..."></textarea>
+      </label>
+
+      <!-- For user to check terms and conditions --> 
+      <label for="terms-and-conditions" name="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="newsletter"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+
+      <!-- For user to choose if they want to join the weekly newsletter --> 
+      <label for="newsletter" name="newsletter">
+        <input id="newsletter" type="checkbox" required name="newsletter" class="inline" value="newsletter" /> I would like to sign up for the weekly newsletter</a>
+      </label> 
+
+    </fieldset> 
+
+	<!-- Submit button --> 
+    <input type="submit" id="submit" value="Submit" />
+
+  </form> 
+</body> 
+
+</html> 
+
+
+

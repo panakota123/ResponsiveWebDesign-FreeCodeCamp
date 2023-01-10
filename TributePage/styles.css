@@ -1,0 +1,59 @@
+/* html css changes */ 
+html{
+  font-size: 12px; /*font size */
+  display: block; /*makes all elements block */
+}
+
+/* body css changes */
+body{
+  font-family: Times New Roman, sans-serif;  /* Font for the website */
+  font-size: 16px; /* default font-size for the website */ 
+  line-height: 1.75; /* line height for each element */ 
+  text-align: center; /* all text on website to be center */ 
+  color: #333; /* colour of words */ 
+  margin: 0; /* margin for the whole webpage */ 
+}
+
+/* main css changes */
+main{
+    margin: 30px 8px;/* margin for main area */ 
+    padding: 15px; /* padding for main */ 
+    border-radius: 5px; /* radius of the whole border */ 
+    background: #eee /* background is an off white */ 
+}
+
+/* figure css changes */
+figure{
+  display: block; /* allows whole figure to be block and fit within the webpage */ 
+}
+
+/* img css changes */
+img{
+    max-width: 100%; /* ensures that picture fits within webpage */
+    display: block; /* display is block on webpage */ 
+    height: auto; /* makes height of img fit auto into webpage */
+    margin: 0 auto; /* makes margin auto onto webpage */ 
+}
+
+/* img div css changes */
+#img-div {
+    background: #2c2e2c; /* background colour of img and description */
+    padding: 10px; /* padding to 10px on all 4 sides */ 
+    margin: 0; /* margin 0 on all 4 sides */ 
+}
+
+/* img caption css changes */
+#img-caption{
+   color: white; /* colour of description to be white so it can contrast the background */
+}
+
+/* ul css changes */
+ul{
+  list-style: none; /* removes the dot to make website cleaner */ 
+}
+
+/* li css changes */ 
+li {
+    margin: 16px 0; /* makes margin between each li spread out */
+    font-size: 14px; /* makes it readable but small enough so its understood it is not the most important info */ 
+}

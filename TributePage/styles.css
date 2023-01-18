@@ -19,7 +19,7 @@ main{
     margin: 30px 8px;/* margin for main area */ 
     padding: 15px; /* padding for main */ 
     border-radius: 5px; /* radius of the whole border */ 
-    
+    background-color: #ffff80; 
 }
 
 /* figure css changes */
@@ -47,10 +47,6 @@ img{
    color: white; /* colour of description to be white so it can contrast the background */
 }
 
-h4{
-	background-color: yellow; 
-}
-
 /* ul css changes */
 ul{
   list-style: none; /* removes the dot to make website cleaner */ 
@@ -59,14 +55,5 @@ ul{
 /* li css changes */ 
 li {
     margin: 16px 0; /* makes margin between each li spread out */
-    font-size: 14px; /* makes it readable but small enough so its understood it is not the most important info */
-}
-
-/* black background on every second date */ 
-.black-background{
-	background-color: #2c2e2c; /* background colour is black */ 
-	color: white; /* font colour is white */ 
-	width: 20%; /* width of teh box is 20% wide */ 
-	text-align: center; /* text-aligned center */ 
-	margin: auto; /* margin so its centered on the page */ 
+    font-size: 14px; /* makes it readable but small enough so its understood it is not the most important info */ 
 }

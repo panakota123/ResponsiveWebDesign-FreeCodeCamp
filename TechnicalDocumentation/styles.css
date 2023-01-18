@@ -1,0 +1,65 @@
+/* HTML elements */
+html{
+  font-family: arial, sans-serif; /* font is arial */ 
+  line-height: 1.5; /* line-height for the page */ 
+}
+
+/* Header elements */ 
+header{
+  font-size: 20px; /* font size for headers */ 
+  font-weight: bold; /* bold the text */ 
+  text-align: center; /* make the text center */ 
+  background-color:  #d9d9d9; /* ,ale the background an off white to help aid the reader about what each section is */ 
+}
+
+/* image elements */ 
+img{
+  /* keeps the image center */ 
+  margin-left: auto; 
+  margin-right: auto;
+
+  /* creates the height and width for the image on the webpage */ 
+  height: 40%; 
+  width: 100%; 
+}
+
+/* for code elements */ 
+code{
+  font-weight: bold; 
+  color: green; /* green makes it popped out */ 
+  font-size: 14px; 
+}
+
+/* nav bar elements */
+#navbar{
+  position: fixed;  
+  width: 20%; 
+  height: 100%; 
+  left: 0; 
+  border-right: solid; 
+  border-color: black; /* border colour to distinguish nav from webpage*/ 
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: black; 
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+/* main document elements */ 
+#main-doc{
+  position: absolute;
+  margin-left: 20%;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+@media screen and (max-width: 800px){
+  nav{
+  background-color:  #d9e5d5; /* rule states that if the width is max 800px, the border colour will be an off green. */ 
+  }
+}

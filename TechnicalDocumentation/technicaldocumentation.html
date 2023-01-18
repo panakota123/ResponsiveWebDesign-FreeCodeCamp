@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+  <!-- Head elements --> 
+  <head>
+
+    <!-- title of webpage --> 
+    <title>Technical Documentation</title>
+
+    <!-- meta elements --> 
+    <meta charset="utf-8"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to css spreadsheet --> 
+    <link rel="stylesheet" href="styles.css">
+  </head> 
+
+  <!-- beginning of body --> 
+  <body>
+  
+    <!-- Navigation --> 
+    <nav id="navbar">
+      <header id="nav">C++: A Popular Coding Language </header>
+      <ul>
+
+        <!-- to what is C++ --> 
+        <li><a class="nav-link" href="#what_is_c++?">What is C++?</a></li>
+
+        <!-- to getting started--> 
+        <li><a class="nav-link" href="#getting_started">Getting Started</a></li>
+
+        <!-- to hello world --> 
+        <li><a class="nav-link" href="#hello_world">Hello World</a></li>
+
+        <!-- to variables --> 
+        <li><a class="nav-link" href="#variables">Variables</a></li>
+
+        <!-- to data types --> 
+        <li><a class="nav-link" href="#data_types">Data Types</a></li>
+
+        <!-- to comments --> 
+        <li><a class="nav-link" href="#comments">Comments</a></li>
+</ul>
+    </nav>
+
+    <!-- main, which will have the most information for the webpage --> 
+    <main id="main-doc">
+
+      <!-- first section, intro to C++ --> 
+      <section class="main-section" id="what_is_c++?">
+
+        <!-- Header of section --> 
+        <header>What is C++?</header>
+
+        <!-- additional information under title --> 
+        <p>C++ is one of the most popular programming languages. It is used to create many programs and is mainly used in game developement </p>
+        <p>C++ is an object-oriented prgamming language. It is a superset of the C Language</p>
+
+      </section> 
+
+      <!-- second section, what to do to set up --> 
+      <section class="main-section" id="getting_started">
+
+        <!-- Header of section --> 
+        <header>Getting Started</header>
+
+        <!-- additional information under title --> 
+        <p> You will need 2 things before starting to code in C++        
+          <!-- what you will need to set up coding --> 
+          <ol>
+            <li>Text editor, to write up the code (such as Notepad++) 
+            </li>
+
+            <li>A compiler, so the computer can understand the code (such as MinGW) 
+            </li>  
+          </ol> 
+        </p>
+
+        <!-- additional information under title -->
+        <!-- additional help to set up coding -->
+        <p>Some more elements that are not needed but can help include:
+          <ol>
+            <li>Watching Youtube Videos on how to code in C++
+            </li>
+
+            <li>Install an IDE which can edit and compile the code together
+            </li> 
+
+            <li>Visiting <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> to keep up to date with coding
+            </li>
+          </ol> 
+        </p>
+
+      </section> 
+
+      <!-- third section, what to do to set up --> 
+      <section class="main-section" id="hello_world">
+
+        <!-- Header of section -->
+        <header>Hello World</header>
+
+        <!-- additional information under title -->
+        <p>The best way to start coding is a simple "Hello World" task
+        </p>
+
+        <!-- additional help to set up coding -->
+        <p>Follow the following steps to create your first code:
+          <ol>
+            <li>Start a new coding file, with the name <strong>helloworld.cpp</strong>
+            </li>
+            <li>Type out the following code: 
+            </li>
+          </ol>
+          <p>
+            <img src="code.jpg" alt="code"/>
+          </p>
+              
+          <!-- breakdown of code --> 
+          <ul> 
+            <li><code>#include < iostream ></code>  that works with input and output objects and is a library that adds functionality to the C++ library. This should be included in almost every single type of project
+            </li>
+
+             <li><code>using namespace std</code>  allows us to use basic terms from the library, instead of creating our own (helps clean up the program)
+            </li> 
+
+            <li><code>int main{}</code>  creates a function, anything in the brackets will be executed in the code 
+            </li> 
+
+            <li><code>cout</code> is an object to output/print text. This is chained together with (<<) which is a way to stay that this needs to be outputted. In our example it will output "Hello World"
+             </li> 
+
+            <li> <code>return 0</code> ends the function
+            </li>  
+          </ul>        
+        </p>
+      </section> 
+
+      <!-- fourth section, what to do to set up --> 
+      <section class="main-section" id="variables">
+
+        <!-- Header of section -->
+        <header>Variables</header>
+
+        <!-- additional information under title -->
+        <p>When declaring a variable, you must choose a specific type and give it a value. An example of the syntax can include: <code>VariableType NameOfVariable = value</code>  </p> 
+        <p>Some specific types of variables can include but not limited to:  </p> 
+        <ul> 
+          <li> Strings</li> 
+          <li> Int</li> 
+          <li> Char</li> 
+          <li> Bool</li> 
+        </ul> 
+
+        <p>More information can be found in the next section of this webpage</p>
+      </section> 
+
+
+      <!-- fifth section, what to do to set up --> 
+      <section class="main-section" id="data_types">
+
+        <!-- Header of section -->
+        <header>Data Types</header>
+
+        <!-- additional information under title -->
+        <p>As mentioned above, a variabele MUST have a data type. There are many different types of data types, but can be broken up into 4 main elements. 
+        </p> 
+        <ol> 
+          <li><strong>Numeric Types: </strong> when you need to store any type of number that will be used mathmatically. </li> 
+          <li><strong>Boolean: </strong> can only take values of true (which is valued at 1) or false (which is valued at 2) </li> 
+
+          <li><strong>Characters: </strong> also known as char, this will store only one letter and has to be surrounded by quotes </li> 
+
+          <li><strong>Strings: </strong> to store > 1 characters. This can include letters, symbols and numbers that are not used mathematically. </li> 
+
+        </ol> 
+      </section> 
+
+      <!-- sixth section, what to do to set up --> 
+      <section class="main-section" id="comments">
+
+        <!-- Header of section -->
+        <header>Comments</header>
+
+        <!-- additional information under title -->
+        <p>Comments are very important in your code as they allow you to explain what the code is actually doing in simple terms. They can be single lined or multi-lined </p>
+        <p><code>// This is a single lined comment</code></p> 
+        <br> 
+
+        <p><code>/* This is a multi-lined comment
+          <p>Which shows that comments can overflow */ </p> </code></p>
+      </section>
+    </main> 
+  </body>
+</html> 
